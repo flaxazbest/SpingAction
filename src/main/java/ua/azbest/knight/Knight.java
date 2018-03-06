@@ -1,4 +1,4 @@
-package ua.azbest;
+package ua.azbest.knight;
 
 import org.aspectj.lang.annotation.Pointcut;
 

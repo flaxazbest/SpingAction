@@ -1,14 +1,9 @@
-package ua.azbest;
+package ua.azbest.knight;
 
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.context.annotation.*;
 
-import ua.azbest.BraveKnight;
-import ua.azbest.Knight;
-import ua.azbest.quest.Quest;
-import ua.azbest.quest.RescueDamselQuest;
-import ua.azbest.quest.SlayDragonQuest;
+import ua.azbest.knight.quest.Quest;
+import ua.azbest.knight.quest.RescueDamselQuest;
 
 @Configuration
 @EnableAspectJAutoProxy

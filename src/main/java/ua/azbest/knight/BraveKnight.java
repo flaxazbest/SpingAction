@@ -1,7 +1,6 @@
-package ua.azbest;
+package ua.azbest.knight;
 
-import org.aspectj.lang.annotation.Pointcut;
-import ua.azbest.quest.Quest;
+import ua.azbest.knight.quest.Quest;
 
 public class BraveKnight implements Knight {
 

@@ -3,7 +3,8 @@ import static org.mockito.Mockito.*;
 
 import org.junit.Test;
 
-import ua.azbest.quest.Quest;
+import ua.azbest.knight.BraveKnight;
+import ua.azbest.knight.quest.Quest;
 
 public class BraveKnightTest {
 

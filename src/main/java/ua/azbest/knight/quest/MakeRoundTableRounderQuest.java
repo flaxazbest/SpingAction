@@ -1,4 +1,4 @@
-package ua.azbest.quest;
+package ua.azbest.knight.quest;
 
 public class MakeRoundTableRounderQuest implements Quest {
     public void embark() {

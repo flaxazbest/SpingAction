@@ -1,7 +1,7 @@
-package ua.azbest;
+package ua.azbest.knight;
 
 import org.aspectj.lang.annotation.Pointcut;
-import ua.azbest.quest.RescueDamselQuest;
+import ua.azbest.knight.quest.RescueDamselQuest;
 
 @Deprecated
 public class DamselRescuingKnight implements Knight {

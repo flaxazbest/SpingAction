@@ -1,4 +1,4 @@
-package ua.azbest.quest;
+package ua.azbest.knight.quest;
 
 import java.io.PrintStream;
 
