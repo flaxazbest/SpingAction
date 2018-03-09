@@ -13,6 +13,7 @@
         <mockito.version>1.9.5</mockito.version>
         <spring.version>5.0.4.RELEASE</spring.version>
         <aspectj.version>1.8.13</aspectj.version>
+        <jdbc.version>0.7.5</jdbc.version>
     </properties>
 
     <dependencies>
@@ -42,6 +43,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--SPRING-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -58,11 +60,27 @@
             <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectj.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.clojure</groupId>
+            <artifactId>java.jdbc</artifactId>
+            <version>${jdbc.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>15.0</version>
         </dependency>
 
     </dependencies>
